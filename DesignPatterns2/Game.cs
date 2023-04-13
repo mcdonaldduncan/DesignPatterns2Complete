@@ -29,6 +29,12 @@ namespace DesignPatterns2
             Turn = 0;
         }
 
+        /// <summary>
+        /// execute a turn with out values representing actions taken by player and competitor this turn
+        /// </summary>
+        /// <param name="playerOutput"></param>
+        /// <param name="competitorOutput"></param>
+        /// <returns></returns>
         public bool ExecuteTurn(out string playerOutput, out string competitorOutput)
         {
             playerOutput = string.Empty;
@@ -79,11 +85,18 @@ namespace DesignPatterns2
             return competitorAlive && playerAlive;
         }
         
+        /// <summary>
+        /// Return the player's display inventory method, list as string
+        /// </summary>
+        /// <returns></returns>
         public string DisplayPlayerInventory()
         {
             return Player.DisplayInventory();
         }
 
+        /// <summary>
+        /// Get effect and use the first item in inventory before removing that item
+        /// </summary>
         public void UseFirstitem()
         {
             if (Player.Inventory == null || Player.Inventory.Count <= 0) return;
@@ -93,6 +106,10 @@ namespace DesignPatterns2
             Player.Inventory.RemoveAt(0);
         }
 
+        /// <summary>
+        /// Get won/lost depending on player turns remaining
+        /// </summary>
+        /// <returns></returns>
         public string GetWinner()
         {
             return Player.TurnsRemaining > 0 ? "won" : "lost";
