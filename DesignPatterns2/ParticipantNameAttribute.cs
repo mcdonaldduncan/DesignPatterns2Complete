@@ -10,6 +10,11 @@ namespace DesignPatterns2
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     internal class ParticipantNameAttribute : ValidationAttribute
     {
+        /// <summary>
+        /// returns true if name is a string that has a value less than ten characters and only contains alphanumeric characters
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public override bool IsValid(object value)
         {
             if (value == null || value is not string)

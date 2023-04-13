@@ -19,6 +19,12 @@ namespace DesignPatterns2
             this.duration = duration;
         }
 
+        /// <summary>
+        /// Notify participants under the effect of poison
+        /// </summary>
+        /// <param name="startTurn"></param>
+        /// <param name="currentTurn"></param>
+        /// <param name="notificationString"></param>
         public void Notify(int startTurn, int currentTurn, out string notificationString)
         {
             notificationString = string.Empty;
@@ -33,11 +39,19 @@ namespace DesignPatterns2
             notificationString = "Your eyes are very itchy!\n";
         }
 
+        /// <summary>
+        /// Attach new participant
+        /// </summary>
+        /// <param name="participant"></param>
         public void Attach(IParticipant participant)
         {
             participants.Add(participant);
         }
 
+        /// <summary>
+        /// Remove participant
+        /// </summary>
+        /// <param name="participant"></param>
         public void Remove(IParticipant participant)
         {
             participants.Remove(participant);
