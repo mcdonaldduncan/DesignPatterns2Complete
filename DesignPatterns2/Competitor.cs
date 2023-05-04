@@ -7,7 +7,7 @@ using static DesignPatterns2.Constant;
 
 namespace DesignPatterns2
 {
-    public class Competitor : Participant
+    public class Competitor : ParticipantPoco
     {
         public Competitor()
         {

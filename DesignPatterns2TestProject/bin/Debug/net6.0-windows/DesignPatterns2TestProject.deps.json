@@ -1090,9 +1090,27 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "Shared": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
       "DesignPatterns2/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Shared": "1.0.0"
+        },
         "runtime": {
           "DesignPatterns2.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "runtime": {
+          "Shared.dll": {}
         }
       }
     }
@@ -1747,7 +1765,17 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DesignPatterns2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

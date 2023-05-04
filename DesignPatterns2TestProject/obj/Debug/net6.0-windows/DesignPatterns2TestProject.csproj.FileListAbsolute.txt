@@ -208,3 +208,7 @@ C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProje
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\obj\Debug\net6.0-windows\DesignPatterns2TestProject.pdb
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\obj\Debug\net6.0-windows\DesignPatterns2TestProject.genruntimeconfig.cache
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\obj\Debug\net6.0-windows\ref\DesignPatterns2TestProject.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\bin\Debug\net6.0-windows\Shared.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2TestProject\bin\Debug\net6.0-windows\Shared.pdb

@@ -40,3 +40,9 @@ C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\obj\Debu
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\obj\Debug\net6.0-windows\DesignPatterns2.pdb
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\obj\Debug\net6.0-windows\DesignPatterns2.genruntimeconfig.cache
 C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\obj\Debug\net6.0-windows\ref\DesignPatterns2.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\bin\Debug\net6.0-windows\Shared.dll
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\bin\Debug\net6.0-windows\Shared.pdb
+C:\Users\dfmcd\Documents\GitHub\DesignPatterns2Complete\DesignPatterns2\obj\Debug\net6.0-windows\DesignPatterns2.csproj.CopyComplete

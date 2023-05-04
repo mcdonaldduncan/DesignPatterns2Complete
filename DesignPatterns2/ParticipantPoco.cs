@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns2
 {
-    public class Participant : IParticipant
+    public class ParticipantPoco : IParticipant
     {
         [ParticipantName]
         public string Name { get; set; }

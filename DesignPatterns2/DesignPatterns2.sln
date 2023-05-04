@@ -3,9 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns2", "DesignPatterns2.csproj", "{71736EAC-32CB-47CF-902B-E7D1FCA48A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns2", "DesignPatterns2.csproj", "{71736EAC-32CB-47CF-902B-E7D1FCA48A98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A80141C-0EE3-470F-BABF-879E361E5B59} = {4A80141C-0EE3-470F-BABF-879E361E5B59}
+		{7BE46732-2F94-450E-BFBF-DE4FBAEF6043} = {7BE46732-2F94-450E-BFBF-DE4FBAEF6043}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns2TestProject", "..\DesignPatterns2TestProject\DesignPatterns2TestProject.csproj", "{5DAE20A2-D757-4F38-88E7-0AAEDA4C4224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns2TestProject", "..\DesignPatterns2TestProject\DesignPatterns2TestProject.csproj", "{5DAE20A2-D757-4F38-88E7-0AAEDA4C4224}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{F39E92FC-44E6-470D-AF07-6A8F833A95B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A80141C-0EE3-470F-BABF-879E361E5B59} = {4A80141C-0EE3-470F-BABF-879E361E5B59}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "..\API\API.csproj", "{924D16BC-3823-43ED-8335-BD279ACADE97}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71736EAC-32CB-47CF-902B-E7D1FCA48A98} = {71736EAC-32CB-47CF-902B-E7D1FCA48A98}
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0} = {F39E92FC-44E6-470D-AF07-6A8F833A95B0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{7BE46732-2F94-450E-BFBF-DE4FBAEF6043}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0} = {F39E92FC-44E6-470D-AF07-6A8F833A95B0}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "..\Shared\Shared.csproj", "{4A80141C-0EE3-470F-BABF-879E361E5B59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +43,22 @@ Global
 		{5DAE20A2-D757-4F38-88E7-0AAEDA4C4224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DAE20A2-D757-4F38-88E7-0AAEDA4C4224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DAE20A2-D757-4F38-88E7-0AAEDA4C4224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39E92FC-44E6-470D-AF07-6A8F833A95B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924D16BC-3823-43ED-8335-BD279ACADE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924D16BC-3823-43ED-8335-BD279ACADE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924D16BC-3823-43ED-8335-BD279ACADE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924D16BC-3823-43ED-8335-BD279ACADE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE46732-2F94-450E-BFBF-DE4FBAEF6043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE46732-2F94-450E-BFBF-DE4FBAEF6043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE46732-2F94-450E-BFBF-DE4FBAEF6043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE46732-2F94-450E-BFBF-DE4FBAEF6043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A80141C-0EE3-470F-BABF-879E361E5B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A80141C-0EE3-470F-BABF-879E361E5B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A80141C-0EE3-470F-BABF-879E361E5B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A80141C-0EE3-470F-BABF-879E361E5B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

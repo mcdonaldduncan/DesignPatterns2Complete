@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using static DesignPatterns2.Constant;
+using DataAccess;
 using ValidationResult = System.ComponentModel.DataAnnotations.ValidationResult;
 
 namespace DesignPatterns2
@@ -24,6 +25,7 @@ namespace DesignPatterns2
     public partial class MainWindow : Window
     {
         Game<Player, Competitor> _Game;
+        DataAccessService dataAccess = new DataAccessService($"https://localhost:7207/");
 
         public MainWindow()
         {
@@ -145,6 +147,7 @@ namespace DesignPatterns2
         private void btn_SeeResult_Click(object sender, RoutedEventArgs e)
         {
             SetState(GameState.GAMEOVER);
+            _ = dataAccess.AddParticipant(new Participant() { Name = _Game.Player.Name, GemStone = _Game.Player.GemStone});
             tb_ResultOutput.Text = $"You lasted {_Game.Turn} turns and {_Game.GetWinner()} the contest!";
         }
     }

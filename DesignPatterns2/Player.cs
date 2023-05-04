@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns2
 {
-    public class Player : Participant
+    public class Player : ParticipantPoco
     {
         public Player()
         {
